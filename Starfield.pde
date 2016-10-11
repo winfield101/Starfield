@@ -41,6 +41,15 @@ void draw()
 }
 
 }
+void mousePressed()
+{	
+	setup();
+
+	redraw();
+
+
+	
+}
 
 class NormalParticle implements Particle
 
@@ -159,14 +168,6 @@ class JumboParticle extends NormalParticle
 
   }
 
-  
-
-  
-
-
-
-
-
 }
 
 interface Particle
@@ -178,6 +179,3 @@ interface Particle
  public void show();
 
 }
-
-
-
